@@ -1,0 +1,221 @@
+
+.body{
+font-family: 'PT Sans', sans-serif;
+width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+
+h3{
+  font-size: 21px;
+}
+
+h5{
+font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+.header{
+  min-height: 56px;  
+  position: relative;
+
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo{
+background-image: url(./img/logo.png);
+width: 138px;
+height: 70px;
+position: relative;
+z-index: 3;
+}
+
+.header_navigation{
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.main {
+
+}
+
+.cover{
+  position: relative;
+  inset: 0;
+}
+
+.background_image{
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/c3484e481d0d5e20e5de551d8fd0f54a.png);
+}
+
+.introductory{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 509px;
+}
+.welcome {
+ width: 456.65px;
+height: 350.88px;
+}
+
+ .about_the_city{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+  min-height: 256px;
+  justify-content: center;
+ }
+
+ .main_text{
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+ }
+
+ .inline_text{
+  display: flex;
+  font-weight: 400;
+  flex-wrap: wrap;
+  justify-content: center;
+  letter-spacing: 0.01em;
+  color: rgba(51, 51, 51, 1);
+
+ }
+ .introductory_text {
+  display: grid;
+  grid-template-columns: 400px 800px;
+}
+.text_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: rgba(129, 179, 210, 1);
+  color: white;
+}
+
+ .img2{
+  width: 800px;
+height: 256px;
+object-fit: cover;
+ }
+
+
+ .cards{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  height: 330px;
+  align-items: center;
+ }
+
+ .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+ }
+ .icon_home{
+  width: 74.69px;
+  height: 72px;
+ }
+ 
+ .icon_eat{
+  width: 74.07px;
+  height: 69.96px;
+ }
+ 
+ .icon_gift{
+  width: 64px;
+  height: 77px;
+ }
+
+
+.card_title{
+  display: flex;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  flex-direction: column;
+  align-items: center;
+}
+
+ 
+.card_text{
+  display: flex;
+  font-weight: 400;
+  flex-wrap: wrap;
+  justify-content: center;
+  letter-spacing: 0.01em;
+}
+
+ .about_the_city_2{
+  display: grid;
+  grid-template-columns: 800px 400px;
+ }
+
+ .pros_imd{
+
+
+ }
+ .pros{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-transform: uppercase;
+  height: 256px;
+  align-items: center;
+  background-color: rgba(238, 238, 238, 1);
+
+ }
+ .inline_text_2{
+  display: flex;
+  font-weight: 400;
+  flex-wrap: wrap;
+  justify-content: center;
+  letter-spacing: 0.01em;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .hotels{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+  min-height: 256px;
+  justify-content: center;
+ }
+
+
+
+.footer{
+
+}
